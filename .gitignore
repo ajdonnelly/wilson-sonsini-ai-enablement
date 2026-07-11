@@ -1,0 +1,8 @@
+# Application documents — keep private
+*.pdf
+*.docx
+*.pptx
+.DS_Store
+qa-*.jpg
+qa-*.png
+!WSGR_AI_Enablement_Playbook.pdf
