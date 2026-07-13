@@ -39,6 +39,8 @@
         <a href="#about">About</a>
         <a href="#approach">Approach</a>
         <a href="#experience">Experience</a>
+        <a href="#technical">Technical</a>
+        <a href="#background">Background</a>
         <a href="#work">Selected work</a>
         <a href="#why">Why Wilson Sonsini</a>
         <a href="#contact">Contact</a>
@@ -50,11 +52,11 @@
         <canvas id="netbg" aria-hidden="true"></canvas>
         <div class="hero-copy">
           <p class="eyebrow">For Wilson Sonsini &middot; AI Enablement Specialist &middot; Innovation</p>
-          <h1>I turn practitioner needs into AI that legal teams actually use.</h1>
+          <h1>Every firm has the technology. The human layer is what&rsquo;s missing.</h1>
           <p class="lede">
-            I sit between the practice and the technology: I learn how attorneys and staff really work, evaluate
-            and pilot the tools worth adopting, and coordinate the rollout, training, and change management that
-            turn a promising demo into daily, trusted practice.
+            I work in the layer between AI capability and trusted legal work &mdash; learning how attorneys and
+            staff really work, evaluating and piloting the tools worth adopting, and running the training,
+            guardrails, and change management that turn a promising demo into daily, verified practice.
           </p>
           <p class="lede">
             I know this from the inside &mdash; I sit on my firm&rsquo;s AI committee and co-designed our
@@ -68,37 +70,32 @@
           </div>
         </div>
 
-        <aside class="systems-panel" aria-label="Diagram: how a practitioner need becomes adopted, technology-enabled practice">
+        <aside class="systems-panel" aria-label="Diagram: the human layer sits between AI capability and trusted legal work product">
           <div class="stack">
             <div class="stack-layer">
-              <strong>Practitioner need</strong>
-              <span>the real workflow, mapped from the inside</span>
+              <strong>AI capability</strong>
+              <span>frontier models &middot; retrieval &middot; agentic workflows &middot; legal platforms</span>
             </div>
-            <div class="stack-flow" aria-hidden="true">&#9660;</div>
+            <div class="stack-flow" aria-hidden="true">&#9650;&ensp;&#9660;</div>
             <div class="stack-layer human-layer">
-              <strong>Evaluate &amp; pilot</strong>
-              <span>test tools against real work &middot; prove value safely</span>
+              <strong>The Human Layer</strong>
+              <span>the firm&rsquo;s people &mdash; attorneys, paralegals, staff &amp; business professionals</span>
             </div>
-            <div class="stack-flow" aria-hidden="true">&#9660;</div>
+            <div class="stack-flow" aria-hidden="true">&#9650;&ensp;&#9660;</div>
             <div class="stack-layer">
-              <strong>Roll out &amp; enable</strong>
-              <span>training, guardrails, change management</span>
-            </div>
-            <div class="stack-flow" aria-hidden="true">&#9660;</div>
-            <div class="stack-layer">
-              <strong>Adoption &amp; value</strong>
-              <span>daily use &middot; measured impact &middot; iterate</span>
+              <strong>Trusted work product</strong>
+              <span>verified &middot; confidential &middot; attorney-owned &middot; client-ready</span>
             </div>
           </div>
-          <p class="loop-caption">&#8635; the innovation loop the role runs</p>
+          <p class="loop-caption">the layer that decides whether the capability ever becomes practice</p>
         </aside>
       </section>
 
       <section class="thesis-band" aria-label="Positioning statement">
         <p>
-          Innovation only lands when it meets people inside their real work. I connect the practice and the
-          technology &mdash; evaluating what&rsquo;s worth adopting, and making sure it&rsquo;s used safely,
-          confidently, and every day.
+          The technology is not the hard part. The human layer is &mdash; the people who have to trust a tool,
+          fold it into real matters, and stay right while doing it. That layer is where I work, and it is what
+          turns a capability the firm has bought into practice the firm actually runs on.
         </p>
       </section>
 
@@ -193,6 +190,100 @@
               Running a firm end to end, I led its system-of-record migrations (WinVantage &rarr; Clio &rarr;
               CaseFleet; PACER &rarr; DocketBird) &mdash; repeated renew-or-replace decisions and the change
               management to make each one stick with busy legal professionals.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="technical" class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow">Technical fluency</p>
+          <h2>I can hold the technical conversation, not just translate it</h2>
+          <p>
+            An enablement specialist who cannot evaluate the technology ends up relaying vendor claims. I work
+            from how these systems actually behave &mdash; what retrieval does and does not guarantee, where a
+            model fails, and how you would prove it on your own matters before anyone stakes work on it.
+          </p>
+        </div>
+        <div class="findings-list">
+          <article class="finding">
+            <h3><span>01</span> Retrieval, grounding, and why &ldquo;it cited something&rdquo; is not enough</h3>
+            <p>
+              Most legal AI is retrieval-augmented: the model answers from documents fetched at query time, so
+              the quality of the answer is bounded by the quality of the retrieval. That means the failure mode
+              worth training people on is not only the invented citation &mdash; it is the confident answer built
+              on the wrong or incomplete set of retrieved documents. I teach practitioners to check what the tool
+              actually looked at, not just whether the output looks authoritative.
+            </p>
+          </article>
+          <article class="finding">
+            <h3><span>02</span> Evaluating a tool against real work, not a demo</h3>
+            <p>
+              A vendor demo is a curated best case. A useful evaluation runs the tool on representative matters
+              you already know the answers to, and scores it: was it accurate, was it checkable, did it save real
+              time, did it hold up on the messy inputs rather than the clean ones? A gold-set of known-answer
+              matters turns &ldquo;the attorneys liked it&rdquo; into evidence &mdash; and gives you a baseline
+              to re-test against when the model changes underneath you.
+            </p>
+          </article>
+          <article class="finding">
+            <h3><span>03</span> Prompt and workflow design as an engineering practice</h3>
+            <p>
+              Prompting is not incantation. It is specification: give the model the role, the source material,
+              the constraints, the output shape, and a place to say &ldquo;I don&rsquo;t know.&rdquo; The durable
+              artifact is not a clever prompt &mdash; it is a documented workflow with a human-review checkpoint
+              at the step where being wrong is expensive. I build those, run them on real work, and hand them
+              over so someone else can run them too.
+            </p>
+          </article>
+          <article class="finding">
+            <h3><span>Dev</span> Enough engineering to be useful in the room</h3>
+            <p>
+              Full-stack foundations &mdash; JavaScript, Python, SQL, HTML/CSS, Git &mdash; and the habit of
+              building rather than specifying. This entire portfolio, the interactive module, and the working
+              templates are things I built. It means I can talk to IT and Security as a colleague, read what a
+              vendor is actually proposing, and prototype the thing instead of describing it.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="background" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Background &amp; training</p>
+          <h2>I can follow the science your clients are built on</h2>
+          <p>
+            Wilson Sonsini&rsquo;s clients are technology and life-sciences companies. A legal-technology hire who
+            can actually read the subject matter &mdash; the biotech, the medtech, the deep tech &mdash; is rare,
+            and it changes what enablement can be: not generic training, but use cases scoped to the work the
+            firm actually does.
+          </p>
+        </div>
+        <div class="findings-list">
+          <article class="finding">
+            <h3><span>M.S.</span> Biomedical Visualization &middot; University of Illinois Chicago</h3>
+            <p>
+              BVIS is one of only five accredited programs of its kind in North America &mdash; where science,
+              technology, and communication meet. The training is in reading dense scientific and medical material
+              accurately and rendering it so a non-specialist audience can act on it. Practically: I can sit with a
+              life-sciences matter, follow the underlying science, and understand what an attorney is being asked
+              to be right about. Expected May 2026.
+            </p>
+          </article>
+          <article class="finding">
+            <h3><span>M.F.A. / M.A.</span> Scientific Illustration &amp; Visual Culture &middot; UW&ndash;Madison</h3>
+            <p>
+              Years spent on one problem: how complex, high-stakes information is understood &mdash; and how it
+              gets misunderstood. That is the same problem AI enablement poses on day one. It is also why the
+              training in this portfolio is built the way it is, rather than assembled from slides.
+            </p>
+          </article>
+          <article class="finding">
+            <h3><span>J.D.</span> Executive J.D. &middot; AI Law &amp; Governance &middot; University of Hawai&#x2bb;i</h3>
+            <p>
+              Matriculating Fall 2026, focused on AI law and governance &mdash; the regulatory and professional
+              -responsibility layer that determines what a firm can safely deploy. Enablement that ignores
+              governance is how firms get into trouble; I want to be fluent in both halves.
             </p>
           </article>
         </div>
