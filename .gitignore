@@ -1,8 +1,18 @@
-# Application documents — keep private
-*.pdf
-*.docx
-*.pptx
+# ─── Private application documents (never publish) ───
+# Name-based, NOT type-based: a blanket *.docx rule silently drops
+# deliverables the site links to. Keep the rule narrow and explicit.
+Donnelly_Alex_*
+*CoverLetter*
+*_Resume_*
+*Resume*.pdf
+*Resume*.docx
+
+# ─── Private working artifacts ───
+# (none)
+
+# ─── Junk ───
 .DS_Store
+*.tmp
 qa-*.jpg
 qa-*.png
-!WSGR_AI_Enablement_Playbook.pdf
+_orig_*
