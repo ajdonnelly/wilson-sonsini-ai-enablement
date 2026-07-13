@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An AI Workflow I Built: Running a Program (Almost) Solo | Alex Donnelly</title>
+    <meta
+      name="description"
+      content="A real, de-identified workflow I designed: how I kept an undergraduate honors admissions-to-med-school program running after a four-person office was cut to one — by building an AI layer over a single system of record."
+    >
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.png" sizes="48x48">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1">
+    <style>
+      .flow-img { margin: 1.4rem 0 0.4rem; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 12px 34px rgba(20,40,28,0.10); }
+      .flow-img img { width: 100%; display: block; }
+      .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 8px; }
+      .stat { padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
+      .stat b { display: block; font-size: 1.8rem; font-weight: 800; color: var(--brand); line-height: 1; }
+      .stat span { display: block; margin-top: 6px; color: var(--muted); font-size: .9rem; }
+      @media (max-width: 720px){ .stat-row { grid-template-columns: repeat(2, 1fr); } }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="The Human Layer home">
+        <span class="brand-mark" aria-hidden="true">HL</span>
+        <span><strong>The Human Layer</strong><small>Alex Donnelly</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="index.html#approach">Approach</a>
+        <a href="index.html#technical">Success motion</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#work">Showcase</a>
+        <a href="index.html#why">Why Wilson Sonsini</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected analysis &middot; A workflow I built</p>
+          <h2>Running a program (almost) solo, on one roster and an AI layer</h2>
+          <p>
+            A workflow I designed, and run, where AI genuinely delivered &mdash; the same evaluate, build, and adopt motion I would bring to a practice group, done out of necessity on my own operation. For several
+            years I have helped run a guaranteed-admission undergraduate honors program that prepares students
+            for medical school, in partnership with a college of medicine. When budget pressure cut the office
+            from four people to essentially one, I kept the whole pipeline running by building an AI layer over a
+            single system of record. I stayed because I believe in the mission; I rebuilt the operation so it
+            could survive on a fraction of the staff.
+          </p>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat"><b>4 &rarr; 1</b><span>office staff, after budget cuts</span></div>
+          <div class="stat"><b>~900</b><span>applications reviewed each cycle</span></div>
+          <div class="stat"><b>100+ &rarr; 30</b><span>interviews to final cohort</span></div>
+          <div class="stat"><b>1</b><span>master roster as source of truth</span></div>
+        </div>
+
+        <div class="project-preview" role="note" style="margin-top:18px;">
+          <strong>About this sample</strong>
+          <p>
+            A de-identified account of real work, generalized for publication. The program, people, and students
+            are anonymized; no applicant or student data appears here. Named tools are common commercial
+            platforms. The point is the workflow design and the role AI played &mdash; not any one institution.
+          </p>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow">The architecture</p>
+          <h2>Many messy sources, one source of truth</h2>
+          <p>The whole system rests on one idea: every data source flows through a secure AI layer into a single
+          master roster, and every output is generated back out of it. The roster is the repository; the AI is
+          the connective tissue that keeps it current and turns it into action.</p>
+        </div>
+        <div class="flow-img">
+          <img src="viz_coordination_workflow.png" alt="Data sources flow through a secure AI layer into a master roster, which generates tracking sheets, scheduling, communications, letters, and event coordination" loading="lazy">
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">The work</p>
+          <h2>Three data-heavy workflows, one operator</h2>
+          <p>The office owns two functional pipelines plus the cohort management that connects them. Each was a
+          spreadsheet-and-email nightmare before; each now runs on the same AI-over-roster pattern.</p>
+        </div>
+        <div class="findings-list">
+          <article class="finding">
+            <h3><span>1</span> Admissions &mdash; 900 applications to a cohort of 30</h3>
+            <p>Applications arrive in <strong>Slate</strong> and get bulk-downloaded. I use the university&rsquo;s
+            <strong>enterprise-grade Microsoft Copilot</strong> to securely sift that data and build the tracking
+            spreadsheets the review team works from &mdash; just the director, the associate director, and me.
+            Copilot connects the pieces: pull from Slate, normalize into Excel, organize the email threads, and
+            schedule the 100-plus interviews that narrow the pool to 30. My first cycle, before AI, was a
+            nightmare of manual reconciliation; now the data moves itself, and the humans spend their time on the
+            judgment that actually matters &mdash; who to admit.</p>
+          </article>
+          <article class="finding">
+            <h3><span>2</span> Cohort management &amp; communications</h3>
+            <p>Once admitted, students become a cohort to coordinate: roster upkeep, listserv communications,
+            class scheduling and room booking, and a calendar of program events &mdash; orientation, town halls,
+            lectures, capstone presentations, recruiting sessions, and graduation. I track all of it through
+            email with the honors college and the university, with responses captured in <strong>Qualtrics</strong>,
+            documents in <strong>Box</strong>, and everything reconciled back to the master roster. AI drafts and
+            personalizes the mass communications (mail-merge from Word), summarizes response data, and keeps the
+            roster &mdash; the repository everything is pulled from &mdash; current.</p>
+          </article>
+          <article class="finding">
+            <h3><span>3</span> The medical-school transition</h3>
+            <p>Our office also facilitates the hand-off into medical school. I draft letters from the director on
+            students&rsquo; behalf, work inside their application portals, support med-school prep, and maintain
+            tracking documents through <strong>Blackboard</strong> and now <strong>Canvas</strong>. AI accelerates
+            the drafting and the tracking; a human writes the judgment and signs the letter. It is the same
+            &ldquo;AI drafts, the person decides&rdquo; discipline that runs through my legal work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow">The keystone</p>
+          <h2>The master roster as the system of record</h2>
+          <p>
+            None of this works without one decision: a single master roster as the source of truth. Every
+            applicant, every cohort member, every status and deadline lives there. The AI&rsquo;s job is to keep
+            that one sheet current from many sources and to generate everything &mdash; trackers, schedules,
+            communications, letters &mdash; back out of it. That is what stops a one-person operation from
+            drowning in version conflicts: you don&rsquo;t chase data across ten systems, you maintain one
+            repository and let the AI move it.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">The guardrails</p>
+          <h2>Why this is safe to run on AI</h2>
+        </div>
+        <div class="enablement-cards">
+          <article>
+            <span>01</span>
+            <h4>Enterprise, not consumer</h4>
+            <p>Applicant and student records are sensitive (FERPA). I use the university&rsquo;s enterprise-grade,
+            secured AI &mdash; never a public chatbot &mdash; for anything touching real data.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h4>Human owns the judgment</h4>
+            <p>AI sifts, drafts, and reconciles. People decide who is admitted and what a director&rsquo;s letter
+            says. The high-stakes calls never automate.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h4>One source of truth</h4>
+            <p>A single master roster means changes are reviewable and traceable &mdash; no shadow spreadsheets
+            drifting out of sync.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h4>Built to be handed off</h4>
+            <p>I documented the processes and a knowledge base so my successor inherits a system, not a mystery
+            &mdash; the work outlasts me.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow">Why this matters for Wilson Sonsini</p>
+          <h2>This is the enablement job, run on myself</h2>
+        </div>
+        <div class="project-preview blueprint-cta">
+          <strong>From my workflow to a practice group&rsquo;s</strong>
+          <p>
+            Enablement at Wilson Sonsini starts exactly here: map a messy, multi-source workflow,
+            identify the one system of record, decide where AI belongs and where human judgment must stay, build
+            the guardrails, and document it so the change sticks after you leave the room. I did that for a
+            program I run &mdash; cutting the staffing it needed by three-quarters while keeping the throughput
+            &mdash; and I left behind a system, not heroics. That is value realization and durable adoption, and
+            it is the muscle I would bring to every account.
+            <a href="genai-evaluation.html">See where I found AI wasn&rsquo;t ready &rarr;</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Glad to walk through how I&rsquo;d map a practice group&rsquo;s version</h2>
+          <p>
+            Give me your sources, your system of record, and your highest-friction task, and I&rsquo;ll sketch
+            the AI-over-roster pattern for it &mdash; the same way I rebuilt my own.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:a.james.donnelly@gmail.com">Start a conversation</a>
+      </section>
+    </main>
+  </body>
+</html>
