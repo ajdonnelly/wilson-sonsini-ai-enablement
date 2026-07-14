@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 690" font-family="Inter, Arial, sans-serif">
+  <rect width="1240" height="690" fill="#ffffff"/>
+  <text x="620" y="52" text-anchor="middle" font-size="28" font-weight="800" fill="#1d3d29">One system of record, an AI layer doing the work of a team</text>
+  <text x="620" y="84" text-anchor="middle" font-size="16" fill="#5b6560">How a four-person program office, cut to one, kept an admissions-to-med-school pipeline running</text>
+
+  <!-- COL 1: DATA SOURCES -->
+  <rect x="50" y="135" width="300" height="455" rx="14" fill="#fbf7f4" stroke="#e6e7e2"/>
+  <text x="72" y="172" font-size="13" font-weight="800" letter-spacing="2" fill="#c13b1a">DATA SOURCES</text>
+  <g font-size="14.5" fill="#15212e">
+    <circle cx="80" cy="212" r="4" fill="#c13b1a"/><text x="96" y="210" font-weight="700">Slate</text><text x="96" y="230" font-size="12.5" fill="#5b6560">application intake (bulk)</text>
+    <circle cx="80" cy="270" r="4" fill="#c13b1a"/><text x="96" y="268" font-weight="700">Qualtrics</text><text x="96" y="288" font-size="12.5" fill="#5b6560">forms &amp; survey responses</text>
+    <circle cx="80" cy="328" r="4" fill="#c13b1a"/><text x="96" y="326" font-weight="700">Box</text><text x="96" y="346" font-size="12.5" fill="#5b6560">documents &amp; files</text>
+    <circle cx="80" cy="386" r="4" fill="#c13b1a"/><text x="96" y="384" font-weight="700">Email</text><text x="96" y="404" font-size="12.5" fill="#5b6560">correspondence threads</text>
+    <circle cx="80" cy="444" r="4" fill="#c13b1a"/><text x="96" y="442" font-weight="700">Blackboard / Canvas</text><text x="96" y="462" font-size="12.5" fill="#5b6560">coursework &amp; progress</text>
+    <circle cx="80" cy="502" r="4" fill="#c13b1a"/><text x="96" y="500" font-weight="700">Word / Excel</text><text x="96" y="520" font-size="12.5" fill="#5b6560">letters &amp; trackers</text>
+  </g>
+
+  <!-- COL 2: AI + ROSTER -->
+  <rect x="465" y="180" width="310" height="120" rx="14" fill="#1d3d29"/>
+  <text x="620" y="218" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="1.5" fill="#e7d8d0">ENTERPRISE AI LAYER</text>
+  <text x="620" y="246" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">Microsoft Copilot (secure)</text>
+  <text x="620" y="270" text-anchor="middle" font-size="13" fill="#cfe0d4">sift · normalize · draft · reconcile</text>
+
+  <!-- bidirectional arrow -->
+  <line x1="620" y1="300" x2="620" y2="372" stroke="#c13b1a" stroke-width="3"/>
+  <polygon points="620,300 613,314 627,314" fill="#c13b1a"/>
+  <polygon points="620,372 613,358 627,358" fill="#c13b1a"/>
+
+  <rect x="445" y="375" width="350" height="150" rx="14" fill="#16281c" stroke="#c13b1a" stroke-width="2.5"/>
+  <text x="620" y="415" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="1.5" fill="#e7d8d0">MASTER ROSTER</text>
+  <text x="620" y="443" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">the single source of truth</text>
+  <text x="620" y="468" text-anchor="middle" font-size="12.5" fill="#cfe0d4">one repository the AI reads from</text>
+  <text x="620" y="487" text-anchor="middle" font-size="12.5" fill="#cfe0d4">and writes back to — every cohort,</text>
+  <text x="620" y="506" text-anchor="middle" font-size="12.5" fill="#cfe0d4">every status, every deadline</text>
+
+  <!-- arrows col1 -> AI -->
+  <line x1="358" y1="300" x2="455" y2="245" stroke="#c13b1a" stroke-width="3"/>
+  <polygon points="455,245 440,247 446,259" fill="#c13b1a"/>
+  <!-- arrow roster -> outputs -->
+  <line x1="797" y1="450" x2="882" y2="360" stroke="#c13b1a" stroke-width="3"/>
+  <polygon points="882,360 868,363 875,375" fill="#c13b1a"/>
+
+  <!-- COL 3: OUTPUTS -->
+  <rect x="890" y="135" width="300" height="455" rx="14" fill="#c13b1a"/>
+  <text x="912" y="172" font-size="13" font-weight="800" letter-spacing="2" fill="#fbe7df">OUTPUTS</text>
+  <g font-size="14.5" fill="#ffffff">
+    <circle cx="920" cy="212" r="4" fill="#ffffff"/><text x="936" y="210" font-weight="700">Tracking spreadsheets</text><text x="936" y="230" font-size="12.5" fill="#fbe7df">applicants, cohorts, status</text>
+    <circle cx="920" cy="270" r="4" fill="#ffffff"/><text x="936" y="268" font-weight="700">Interview scheduling</text><text x="936" y="288" font-size="12.5" fill="#fbe7df">900 → 100 interviews → 30</text>
+    <circle cx="920" cy="328" r="4" fill="#ffffff"/><text x="936" y="326" font-weight="700">Mass communications</text><text x="936" y="346" font-size="12.5" fill="#fbe7df">mail-merge, listservs</text>
+    <circle cx="920" cy="386" r="4" fill="#ffffff"/><text x="936" y="384" font-weight="700">Director letters &amp; portals</text><text x="936" y="404" font-size="12.5" fill="#fbe7df">med-school applications</text>
+    <circle cx="920" cy="444" r="4" fill="#ffffff"/><text x="936" y="442" font-weight="700">Event coordination</text><text x="936" y="462" font-size="12.5" fill="#fbe7df">orientation, capstone, graduation</text>
+    <circle cx="920" cy="502" r="4" fill="#ffffff"/><text x="936" y="500" font-weight="700">A documented knowledge base</text><text x="936" y="520" font-size="12.5" fill="#fbe7df">processes that outlast me</text>
+  </g>
+
+  <text x="620" y="635" text-anchor="middle" font-size="14.5" font-weight="700" fill="#c13b1a">One person · one system of record · an AI layer doing the coordination work of a team of four</text>
+</svg>
